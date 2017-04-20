@@ -1,0 +1,579 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    background-image: url(images/background/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.t_nav{
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    padding: 30px;
+}
+.w_top{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.logo{
+    height: auto;
+    width: auto;
+}
+.logo img{
+    height: 80px;
+    width: 350px;
+    float: left;
+}
+.s_b{
+    float: right;
+    height: auto;
+    width: auto;
+}
+.t_b input[type=text]{
+    width: auto;
+    height: auto;
+    border: 2px solid #809393;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: cursive;
+}
+.s_btn {
+  background-color: #809393;
+  color: #F2F2F2;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  font-family: cursive;
+  border-radius: 10px;
+}
+.s_btn:hover {
+  background-color: #00585F;
+}
+.nav{
+    height: auto;
+    width: auto;
+}
+.nav_ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #79BD8F;
+    width: 100%;
+}
+.nav_ul li {
+    float: left;
+}
+.nav_ul li a {
+    display: block;
+    color: #003D5C;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 80px 20px 80px;
+    text-decoration: none;
+}
+.nav_ul li a:hover:not(.act) {
+    background-color: #00A388;
+    color: #F2F2F2;
+    transition: all 0.7s;
+    opacity: 0.8;
+    box-shadow: 0px 30px 30px #737070;
+}
+.act {
+    background-color: #809393;
+}
+.slide{
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+.slider {
+    width: 1300px;
+    height: 620px;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 0px 0px 10px #00A388;
+}
+.slide_img {
+    position: absolute;
+    margin: 10px;
+    width: 1280px;
+    height: 600px;
+    box-shadow: 0px 0px 10px #00A388;
+}
+.arrow {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    position: absolute;
+    top: 280px;
+    padding: 10px 5px;
+    transition: all 0.4s;
+    opacity: 0.6;
+}
+.a{
+    left: 30px;
+}
+.b{
+    right: 30px;
+}
+.arrow:hover  {
+    background: black;
+    box-shadow: 0px 0px 10px #00A388;
+}
+.about{
+    margin-top: 80px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    box-shadow: 0px 0px 20px #00A388;
+}
+.writing{
+    margin-top: 30px;
+    overflow: hidden;
+    height: auto;
+    width: 48%;
+    float: left;
+    box-shadow: 0px 0px 10px #00A388;
+    padding: 10px;
+}
+.writing p {
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: justify;
+}
+.writing h1 {
+    font-family: cursive;
+}
+.writing:hover{
+    background-color: #00A388;
+    transition: all 0.4s;
+    opacity: 0.7;
+}
+.about_img{
+    overflow: hidden;
+    height: auto;
+    width: 50%;
+    float: right;
+}
+.about_img img{
+    height: 300px;
+    width: 500px;
+    float: right;
+    box-shadow: 0px 0px 30px #00A388;
+}
+.about_img img:hover{
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+.service{
+    padding: 30px 100px 30px 100px;
+    margin-top: 100px;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 20px #00A388;
+}
+.service h1 {
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.serv_all {
+    height: 400px;
+    width: 30%;
+    float: left;
+    box-shadow: 0px 0px 30px #809393;
+    transition: all 0.4s;
+}
+.serv1 , .serv2{
+    margin-right: 50px;
+}
+.serv_all:hover {
+    background-color: #00A388;
+    transition: all 0.4s;
+    opacity: 0.7;
+}
+.serv_all h2{
+    font-family: cursive;
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+}
+.serv_all p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 20px 20px 20px;
+}
+.start_project{
+    margin: 90px 0px 90px 0px;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+.project {
+    margin: 30px auto 30px auto;
+    width: 1100px;
+    height: 300px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px #00A388;
+}
+.project h1{
+    font-family: cursive;
+    text-align: center;
+}
+.project p{
+    font-size: 22px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+.project_btn {
+    border-radius: 5px;
+    color: #F2F2F2;
+    background-color: #809393;
+    margin: 20px 450px;
+    padding: 20px 60px;
+    transition: all 0.4s;
+    margin-top: 30px;
+}
+.project_btn:hover {
+    background-color: #00A388;
+    box-shadow: 0px 0px 30px #00A388;
+}
+.history{
+    padding: 30px;
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 10px #00A388;
+}
+.his_pic {
+    overflow: hidden;
+    margin-bottom: 50px;
+    height: auto;
+    width: auto;
+}
+.his_pic img{
+    box-shadow: 0px 15px 10px #737070;
+    width: 48%;
+    height: 350px;
+}
+.his_pic img:hover{
+    box-shadow: 0px 40px 30px #737070;
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+.pic_left{
+    float: left;
+}
+.pic_right{
+    float: right;
+}
+.his_p{
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+.his_p h1 , .his_p p{
+    font-family: cursive;
+}
+.his_p p{
+    font-size: 20px;
+    text-align: justify;
+}
+.his_one {
+    float: left;
+    width: 48%;
+    height: auto;
+}
+.his_two{
+    float: right;
+    width: 48%;
+    height: auto;
+}
+.his_one h1 , .his_two h1{
+    margin-bottom: 20px;
+}
+.crews{
+    padding: 30px;
+    margin-top: 120px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #00A388;
+}
+.crews h1{
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+.crew1 , .crew2 {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-bottom: 120px;
+    box-shadow: 0px 0px 20px #00A388;
+}
+.crew3{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px #00A388;
+}
+.crew_writing1{
+    float: left;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #00A388;
+}
+.crew_writing2{
+    float: right;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #00A388;
+}
+.crew_writing3{
+    float: left;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #00A388;
+}
+.info {
+	padding: 0px 20px 0px 20px;
+	height: auto;
+	width: auto;
+}
+.info h3 , .info h4{
+    margin: 10px 0px 10px 0px;
+    font-family: cursive;
+}
+.info h3 , .prof {
+    text-align: center;
+}
+.info p{
+    font-family: cursive;
+}
+.tbtn {
+  padding: 10px;
+  width: 33.33%;
+  float: left;
+  background-color: #809393;
+  color: #F2F2F2;
+}
+.tbtn:hover {
+  background-color: #00585F;
+}
+.media{
+    list-style-type: none;
+    margin-bottom: 200px;
+}
+.media li {
+    float: left;
+    margin-right: 20px;
+    padding: 60px 0px 0px 32px;
+}
+.media li a img {
+    height: 50px;
+    width: 50px;
+}
+.media li a:hover{
+    opacity: 0.3;
+}
+.crew_pic1{
+    float: right;
+    height: auto;
+    width: 20%;
+    overflow: hidden;
+}
+.crew_pic1 img{
+    height: 389px;
+    width: 100%;
+    float: right;
+}
+.crew_pic2{
+    float: left;
+    height: 389px;
+    width: 20%;
+    overflow: hidden;
+}
+.crew_pic2 img{
+    height: 389px;
+    width: 100%;
+    float: left;
+}
+.crew_pic3{
+    float: right;
+    height: 389px;
+    width: 20%;
+    overflow: hidden;
+}
+.crew_pic3 img{
+    height: 422px;
+    width: 100%;
+    float: right;
+}
+.crew_pic1 img:hover ,
+.crew_pic2 img:hover ,
+.crew_pic3 img:hover {
+    box-shadow: 0px 40px 30px #737070;
+    opacity: 0.5;
+    transition: all 0.4s;
+}
+.contact{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+.form{
+    box-shadow: 0px 15px 10px #737070;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.field{
+    padding: 10px;
+    font-family: cursive;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    font-family: cursive;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #797070;
+    box-sizing: border-box;
+}
+.f_btns{
+    padding: 20px 0px 20px 0px;
+    height: auto;
+    width: auto;
+}
+.fb{
+    opacity: 0.7;
+    font-family: cursive;
+    background-color: #809393;
+	color: #F2F2F2;
+    padding: 10px;
+    float: right;
+    width: 33.33%;
+}
+.fb:hover{
+    opacity: 1;
+    background-color: #00585F;
+}
+.shadow{
+    height: 10px;
+    margin-top: 300px;
+    width: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #00A388;
+}
+.add_map{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-top: 150px;
+    padding: 30px;
+}
+.address{
+    float: left;
+    box-shadow: 0px 0px 20px #00A388;
+    height: auto;
+    width: 30%;
+    overflow: hidden;
+    margin-top: 150px;
+    padding: 100px 0px 100px 0px;
+}
+.address h1{
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.address p{
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+}
+.address:hover{
+    background-color: #00A388;
+    transition: all 0.4s;
+    opacity: 0.7;
+}
+.map{
+    float: right;
+    height: auto;
+    width: 60%;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #00A388;
+}
+iframe{
+    float: left;
+}
+.least{
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+}
+.footer{
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    background-color: #809393;
+}
+.f1 , .f2{
+    float: left;
+    margin: 20px 0px 20px 60px;
+    height: auto;
+    width: auto;
+}
+.f1 h2 , .f2 h2{
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+.f1 p , .f2 p{
+    font-family: cursive;
+    margin-top: 10px;
+}
+.social_media {
+    float: right;
+    height: auto;
+    width: auto;
+}
+.s_media{
+    list-style-type: none;
+}
+.s_media li {
+    float: left;
+    margin-right: 20px;
+    padding: 120px 0px 15px 0px;
+}
+.s_media li a img {
+    height: 50px;
+    width: 50px;
+}
+.s_media li a:hover{
+    opacity: 0.3;
+}
+.copyright{
+    background-color: #00A388;
+    height: auto;
+    width: auto;
+}
+.copyright p{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    font-family: cursive;
+}
